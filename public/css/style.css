@@ -1,4 +1,4 @@
-/* Reset */
+/* reset plz */
 
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,dfn,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
 
@@ -20,7 +20,7 @@ color: #282828;
 
 
 
-.header{
+.banner{
 position: absolute;
 bottom: 0;
 background: rgba(0,0,0,0.5);
@@ -49,7 +49,7 @@ h1 span{
 	width: 940px;
 	margin: 0 auto;
 }
-.coming_soon{
+.container{
 	position: absolute;
 	bottom: 0;
 	height: 30%;
@@ -58,7 +58,7 @@ h1 span{
 	width: 100%;
 }
 
-p.left_content{
+p.left{
 	font-size: 39px;
 	letter-spacing: -1px;
 	color: #fff;
@@ -67,7 +67,7 @@ p.left_content{
 	float: left;
 }
 
-p.right_content{
+p.right{
 	font-size: 24px;
 	float: right;
 	color: #fff;
@@ -75,25 +75,25 @@ p.right_content{
 	margin-right: -13px;
 }
 
-p.right_content a{
+p.right a{
 	margin: 0 13px;
 	color: #ffffff;
 	text-decoration: none;
 }
 
-p.right_content a:hover{
+p.right a:hover{
 	text-decoration: underline;
 }
 
-p.mobile_content{
+p.right_mobile{
 	display: none;
 }
 
-/* Responsive */
+/* mobile and responsive */
 
 @media screen and (max-width: 568px){
 
-.header{
+.banner{
 position: absolute;
 bottom: 0;
 background: rgba(0,0,0,0.5);
@@ -122,7 +122,7 @@ h1 span{
 	width: 100%;
 	margin: 0 auto;
 }
-.coming_soon{
+.container{
 	position: absolute;
 	bottom: 0;
 	height: 40%;
@@ -131,7 +131,7 @@ h1 span{
 	width: 100%;
 }
 
-p.left_content{
+p.left{
 	width: auto;
 	font-size: 30px;
 	text-align: center;
@@ -143,11 +143,11 @@ p.left_content{
 	margin-bottom: 20px;
 }
 
-p.right_content{
+p.right{
 	display: none;
 }
 
-p.mobile_content{
+p.right_mobile{
 	display: block;
 	font-size: 15px;
 	text-align: center;
@@ -157,13 +157,13 @@ p.mobile_content{
 	line-height: 35px;
 }
 
-p.mobile_content a{
+p.right_mobile a{
 	margin: 0;
 	color: #ffffff;
 	text-decoration: none;
 }
 
-p.mobile_content a:hover{
+p.right_mobile a:hover{
 	text-decoration: underline;
 }
 
